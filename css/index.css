@@ -1509,7 +1509,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: ./img/hw0.jpg;
+  background: https://whcComz1.com/blog//source//img//hw0.jpg;
   background-attachment: local;
   background-position: center;
   background-size: cover;
@@ -3473,6 +3473,13 @@ h1.page-title + .tag-cloud-list {
   background-attachment: scroll;
   background-position: bottom;
   background-size: cover;
+}
+#footer:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--mark-bg);
+  content: '';
 }
 #footer-wrap {
   position: relative;
